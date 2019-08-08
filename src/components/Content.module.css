@@ -1,0 +1,11 @@
+.switchwrapper {
+    position: relative;
+    background:red;
+  }
+   
+.switchwrapper > div {
+    position: absolute;
+    
+    width: 100%;
+    height:90vh;
+  }
