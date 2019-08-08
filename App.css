@@ -1,0 +1,16 @@
+.App{
+  display:flex;
+  
+}
+.App>div{
+  min-height: 100vh;
+}
+
+@media screen and (max-width:600px){
+  .App{
+    flex-direction: column;
+  }
+  .App>div{
+    min-height: inherit;
+  }
+}
