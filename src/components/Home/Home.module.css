@@ -48,13 +48,13 @@
 
 @media screen and (max-width:890px){
         .Home{
-            width:80%;
+            width:80vw;
         }
 }
 
 @media screen and (max-width:600px){
     .Home{
-        width:100%;
+        width:100vw;
         height: 100vh;
     }
 }
