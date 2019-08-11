@@ -1,0 +1,64 @@
+.Form {
+  width: 400px;
+  height: 400px;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.FormBox {
+  position: relative;
+  margin: 20px 0;
+}
+.Input {
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 1.2em;
+  outline: none;
+  position: relative;
+}
+.Input::placeholder {
+  color: white;
+}
+
+.LabelNoValue {
+  font-size: 1.1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s ease all;
+}
+
+.LabelValue {
+  font-size: 1.1em;
+  transition: 0.5s ease all;
+  position: absolute;
+  top: -22px;
+  left: 0;
+  color: rgb(61, 202, 61);
+}
+
+.ButtonStyle {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  font-size: 1.4em;
+  color: rgb(79, 223, 79);
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  opacity: 1;
+  transition: 1s all ease;
+}
+.ButtonStyle.nema {
+  opacity: 0;
+}
